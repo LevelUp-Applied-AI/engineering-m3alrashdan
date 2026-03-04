@@ -13,5 +13,5 @@
 - Check logs for errors
 
 ## Checklist
-- [x] Code is tested
-- [x] README updated if needed
+- [ ] Code is tested
+- [ ] README updated if needed
