@@ -1,15 +1,17 @@
 ## What changed
-<!-- Summarize the changes. -->
+- Fixed database connection issue
+- Updated query functions
+- Improved error handling
 
 ## Why
-<!-- Why this change was needed. -->
+- Previous queries were failing due to incorrect joins
+- Needed more robust error handling
 
 ## How to test
-<!-- Commands to run + expected output. -->
+- Run pytest
+- Verify database returns expected results
+- Check logs for errors
 
 ## Checklist
-- [x] Title is clear and imperative
-- [x] Scope = one logical change only
-- [x] Tests updated if needed
-- [x] README updated if behavior changed
-- [x] No debug or leftover print statements
+- [x] Code is tested
+- [x] README updated if needed
